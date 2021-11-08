@@ -62,30 +62,17 @@ class UDPServer {
         Integer greatest = 0;
         Integer current = 0;
 
-        System.out.print("RECEIVED PACKETS: [ ");
+        System.out.print("RECEIVED MESSAGES: [ ");
         for (String message : this.ReceivedMessages) {
-            try {
-                current = Integer.parseInt(message);
-            } catch(Exception e){
-                System.out.println("[SERVER] CONVERSION ERROR " + e.getMessage());
-            }
-
-            if( current > greatest){
-                greatest = current;
-            }
-            System.out.print(message + ", ");
-        }
-        System.out.print("]\n");
-
-        System.out.print("LOST PACKETS: [ ");
-        for(int i = 0; i < greatest.intValue(); i++){
-            if(!this.ReceivedMessages.contains(String.valueOf(i))){
-                System.out.print(String.valueOf(i) + ", ");
-            }
-        }
+            System.out.println(index + ": " + message);
+        }    
         System.out.print("]\n");
     }
-
+    
+    public ArrayList<String> getReceivedMessages(){
+        return new ArrayList<>(this.ReceivedMessages);
+    }
+    
     public void Stop(){
         this.showReceivedMessages();
         this.UDPSocket.close();

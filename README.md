@@ -50,3 +50,15 @@ Sending a message uses the public String function SendMessage(String Message)
 
 Once sending is complete, the client can be stopped using the public void function Stop()  
 `client.Stop();`  
+  
+ 
+ 
+  
+ There are examples of client-server implementation in the examples folder. To compile, ensure UDPClient.java and UDPServer.java exist in the same directory as ExampleServer.java and ExampleClient.java.
+  
+ `javac UDPServer.java UDPClient.java ExampleServer.java ExampleClient.java`
+
+ Then, fire up the server and the client independently
+  `java ExampleServer`  
+  
+  `java ExampleClient`    

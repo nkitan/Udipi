@@ -22,7 +22,7 @@ There are no external dependencies except the java standard libraries
 
 #### * As Class  
 
-##### [Server]  
+##### [Server]
 Creating an instance of the UDPServer Class
 `UDPServer server = new UDPServer(Integer Port);`  
 
@@ -33,7 +33,7 @@ This will start the server on the specified port.
 
 The server can be stoppped using the public void function Stop()  
 `server.Stop();`  
-or by receiving a message "STOP"  
+or by receiving a message string "STOP"  
 
 One can also see all received messages using the public void function showReceivedMessages()     
 `server.showReceivedMessages();`  
@@ -42,7 +42,7 @@ or retrieve a String ArrayList of received Messages using the public ArrayList<S
 `ArrayList<String> received = server.getReceivedMessages();`
 
 
-##### [Client]  
+##### [Client]
 Creating an instance of the UDPClient Class   
 `UDPClient client = new UDPClient(String Host, Integer Port);`  
 

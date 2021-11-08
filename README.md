@@ -52,7 +52,7 @@ Once sending is complete, the client can be stopped using the public void functi
 `client.Stop();`  
   
  
- 
+ ### Examples
   
  There are examples of client-server implementation in the examples folder. To compile, ensure UDPClient.java and UDPServer.java exist in the same directory as ExampleServer.java and ExampleClient.java.  
   

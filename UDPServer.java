@@ -70,7 +70,12 @@ class UDPServer {
     }
     
     public ArrayList<String> getReceivedMessages(){
-        return new ArrayList<>(this.ReceivedMessages);
+        ArrayList<String> temp = new ArrayList<String>();
+        for(String message : this.ReceivedMessages) {
+            temp.add(message);
+        }
+        
+        return temp;
     }
     
     public void Stop(){

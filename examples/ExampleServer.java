@@ -1,5 +1,5 @@
 public class ExampleServer {
-  public static void main(){
+  public static void main(String args[]){
     UDPServer server = new UDPServer(8080); // Create a server to listen on port 8080
     server.Listen(0.0); // start listening on port 8008 without simulated losses
    
@@ -8,7 +8,10 @@ public class ExampleServer {
       System.out.println(message);
     }
     
-    stop = false;
-    stop? server.Stop() : continue; // stop the server manually
+    Boolean stop = false;
+    if(stop){
+	    server.Stop();// stop the server manually
+  	
+    }
   }
 }

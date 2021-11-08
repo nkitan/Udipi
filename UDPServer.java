@@ -59,11 +59,11 @@ class UDPServer {
     }
     
     public void showReceivedMessages(){
-        Integer greatest = 0;
-        Integer current = 0;
+        Integer index = 0;
 
         System.out.print("RECEIVED MESSAGES: [ ");
         for (String message : this.ReceivedMessages) {
+	    index++;
             System.out.println(index + ": " + message);
         }    
         System.out.print("]\n");

@@ -1,0 +1,8 @@
+WARN  2021-11-08T22:06:19.532 19355 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:06:38.510 19500 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:06:44.580 19604 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:07:24.703 19739 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:08:38.263 19916 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:09:31.633 20094 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:10:12.552 20261 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1
+WARN  2021-11-08T22:10:24.760 20365 log_path_init:95: Failed to create directory /home/notroot/./cache/nvim for writing logs: Unknown system error 1

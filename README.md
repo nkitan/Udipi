@@ -23,12 +23,11 @@ There are no external dependencies except the java standard libraries
 #### * As Class  
 
 ##### [Server]
-Creating an instance of the UDPServer Class
+Creating an instance of the UDPServer Class  
 `UDPServer server = new UDPServer(Integer Port);`  
 
 Start listening on a port  
 `server.Listen(Double Lossiness)`  
-
 This will start the server on the specified port.  
 
 The server can be stoppped using the public void function Stop()  
